@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## Math Magicians
+![screenshot](./Screenshot.png)
 
 ### Milestone 1:
 - Setup react project using `create-react-app`.
