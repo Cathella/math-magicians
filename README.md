@@ -6,16 +6,21 @@
 - Setup react project using `create-react-app`.
 - Setup project linters.
 
+### Milestone 2:
+- Create a Calculator component.
+- Add styles to the components.
+
 ## Built With
 
 - HTML, CSS & JS
 - Visual Studio Code
 - Webpack
 - Linters
+- ReactJS
 
 ## Set up locally
 
-- Open your terminal and run the following command: git clone https://github.com/Cathella/math_magicians.git
+- Open your terminal and run the following command: git clone https://github.com/Cathella/math-magicians.git
 - Run the command "yarn install"
 - Run the command "yarn start"
 
@@ -33,7 +38,7 @@ Once you completed this steps you should see the app running at: http://localhos
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Cathella/math_magicians/issues)
+Feel free to check the [issues page](https://github.com/Cathella/math-magicians/issues)
 
 ## Show your support
 
