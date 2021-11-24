@@ -2,21 +2,17 @@
 /* eslint-disable no-useless-constructor */
 
 import React, { Component } from 'react';
-import Calculator from './components/Calculator';
-import './App.css';
 
-class App extends Component {
+class Calculator extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
     return (
-      <div className="App">
-        <Calculator />
-      </div>
+      <div>This is a Calculator Component</div>
     );
   }
 }
 
-export default App;
+export default Calculator;
