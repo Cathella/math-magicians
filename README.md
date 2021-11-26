@@ -11,6 +11,11 @@
 - Create a Calculator component.
 - Add styles to the components.
 
+### Milestone 3:
+- Import `calculate.js` and `operate.js` for calculator logic.
+- Implement the event handlers.
+- Use state and props, pass props.
+
 ## Built With
 
 - HTML, CSS & JS
