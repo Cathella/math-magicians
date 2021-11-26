@@ -16,6 +16,9 @@
 - Implement the event handlers.
 - Use state and props, pass props.
 
+### Milestone 4:
+- Refactor the Calculator component from a class based component to a functional component with hooks.
+
 ## Built With
 
 - HTML, CSS & JS
