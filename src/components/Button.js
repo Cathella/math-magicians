@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class Button extends React.Component {
+class Button extends Component {
   render() {
     const { name, className } = this.props;
     return (
