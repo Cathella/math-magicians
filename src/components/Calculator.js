@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from './Button';
 
 class Calculator extends Component {
   constructor(props) {
@@ -11,25 +12,25 @@ class Calculator extends Component {
       <div className="container">
         <div className="result">0</div>
         <div className="btn-container">
-          <button type="button">AC</button>
-          <button type="button">+/-</button>
-          <button type="button">%</button>
-          <button type="button" className="action-btns">÷</button>
-          <button type="button">7</button>
-          <button type="button">8</button>
-          <button type="button">9</button>
-          <button type="button" className="action-btns">x</button>
-          <button type="button">4</button>
-          <button type="button">5</button>
-          <button type="button">6</button>
-          <button type="button" className="action-btns">-</button>
-          <button type="button">1</button>
-          <button type="button">2</button>
-          <button type="button">3</button>
-          <button type="button" className="action-btns">+</button>
-          <button type="button" className="zero">0</button>
-          <button type="button">.</button>
-          <button type="button" className="action-btns">=</button>
+          <Button name="AC" />
+          <Button name="+/-" />
+          <Button name="%" />
+          <Button name="÷" className="action-btns" />
+          <Button name="7" />
+          <Button name="8" />
+          <Button name="9" />
+          <Button name="x" className="action-btns" />
+          <Button name="4" />
+          <Button name="5" />
+          <Button name="6" />
+          <Button name="-" className="action-btns" />
+          <Button name="1" />
+          <Button name="2" />
+          <Button name="3" />
+          <Button name="+" className="action-btns" />
+          <Button name="0" className="zero" />
+          <Button name="." />
+          <Button name="=" className="action-btns" />
         </div>
       </div>
     );
