@@ -11,6 +11,6 @@ const Nav = () => (
       <Link to="/quotes">Quote</Link>
     </nav>
   </header>
-)
+);
 
 export default Nav;

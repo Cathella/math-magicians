@@ -9,3 +9,9 @@
   justify-content: space-between;
   margin-top: 5em;
 }
+
+h3 {
+  text-align: center;
+  margin-top: 5em;
+  line-height: 1.8;
+}
