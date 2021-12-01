@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
+import Nav from './Nav';
 
 const Calculator = () => {
   const [data, setData] = useState({
@@ -16,6 +17,7 @@ const Calculator = () => {
 
   return (
     <div className="container">
+      <Nav />
       <div className="result">
         { data.next || data.operation || data.total || 0 }
       </div>
