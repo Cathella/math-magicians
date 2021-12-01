@@ -1,0 +1,11 @@
+.home-wrapper,
+.calc-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.calc-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+}
