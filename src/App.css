@@ -1,0 +1,17 @@
+.home-wrapper,
+.calc-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.calc-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 5em;
+  line-height: 1.8;
+}
