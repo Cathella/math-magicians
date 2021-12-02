@@ -1,4 +1,4 @@
-import calculate from '../logic/calculate';
+import calculate from './calculate';
 
 describe('Calculate', () => {
   const obj = {
@@ -6,7 +6,7 @@ describe('Calculate', () => {
     next: null,
     operation: null,
   };
-  
+
   test('the function returns an object', () => {
     expect(typeof (calculate(obj, 'AC'))).toBe('object');
   });

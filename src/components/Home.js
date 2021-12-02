@@ -10,7 +10,7 @@ const Home = () => (
       <h1>The best way to learn Mathematics is to do Mathematics</h1>
       <div>
         <p className="tag-line">
-          You can start learning mathematics with our free tool. We provide you with a free calculator and a quote.
+          Start learning mathematics with our free tool. We provide you with a free calculator and quote.
         </p>
         <div className="btn-links">
           <Link to="/calculator" className="btns">Calculate Numbers</Link>
