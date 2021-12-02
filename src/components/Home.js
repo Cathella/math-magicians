@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import '../App.css';
 
@@ -6,24 +7,16 @@ const Home = () => (
   <>
     <Nav />
     <div className="home-wrapper">
-      <h2>Welcome to our page!</h2>
+      <h1>The best way to learn Mathematics is to do Mathematics</h1>
       <div>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit
-          voluptatem accusantium doloremque laudantium, totam
-          rem aperiam, eaque ipsa quae ab illo inventore veritatis
-          et quasi architecto beatae vitae dicta sunt explicabo.
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-          aut odit aut fugit, sed
+        <p className="tag-line">
+          Start learning mathematics with our free tool.&nbsp;
+          We provide you with a free calculator and quote.
         </p>
-        <p>
-          But I must explain to you how all this mistaken idea of denouncing
-          pleasure and praising pain was born and I will give you a
-          complete account of the system, and expound the actual teachings
-          of the great explorer of the truth, the master-builder of
-          human happiness. No one rejects, dislikes, or avoids pleasure
-          itself, because it is pleasure.
-        </p>
+        <div className="btn-links">
+          <Link to="/calculator" className="btns">Calculate Numbers</Link>
+          <Link to="/quotes" className="btns more-padding">Get a Quote</Link>
+        </div>
       </div>
     </div>
   </>
