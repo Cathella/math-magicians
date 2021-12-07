@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.logo,
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+nav a {
+  margin-left: 30px;
+}
