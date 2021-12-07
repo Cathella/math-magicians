@@ -27,6 +27,10 @@
 - Linters
 - ReactJS
 
+## Deployed Online
+- [Project Live link (Netlify)](https://math-magicians-nakitto.netlify.app/)
+- [Project Live link (Heroku)](https://math-magicians-0619.herokuapp.com/)
+
 ## Set up locally
 
 - Open your terminal and run the following command: git clone https://github.com/Cathella/math-magicians.git
